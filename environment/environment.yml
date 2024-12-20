@@ -1,0 +1,11 @@
+name: integronevo_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - biopython
+  - integron_finder
+  - mmseqs2
+  - ncbi-datasets-cli
+  - levenshtein
