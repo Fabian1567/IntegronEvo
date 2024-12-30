@@ -40,7 +40,7 @@ Activate the panX conda environment and run panX on all subfolders in `input_pat
 
 6. Install SpacerPlacer as explained [here](https://github.com/fbaumdicker/SpacerPlacer) activate the SpacerPlacer conda environment and run:
     ```bash
-   python <path to spacerplacer.py> input_path/workfolder/sp_fasta/ <output_path> --cluster_json input_path/workfolder//sp_json/ [--tree_path input_path/workfolder/trees/]
+   python <path to spacerplacer.py> input_path/workfolder/sp_fasta/ <output_path> --cluster_json input_path/workfolder/sp_json/ [--tree_path input_path/workfolder/trees/]
    ```
    Only use the `--tree_path` flag if you performed step 5!
 
