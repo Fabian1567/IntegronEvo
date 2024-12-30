@@ -1,6 +1,8 @@
 # IntegronEvo
 
 ## Installation and Usage
+IntegronEvo is supported on Linux, there is no guarantee it will work on other operating systems.  
+To install and run it follow these steps:
 1. Clone the GitHub repository:
 
     ```bash
