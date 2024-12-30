@@ -38,7 +38,7 @@ Activate the panX conda environment and run panX on all subfolders in `input_pat
    python fix_trees.py <input_path>
    ```
 
-6. Install SpacerPlacer as explained [here](https://github.com/fbaumdicker/SpacerPlacer) activate the SpacerPlacer conda environment and run:
+6. Install SpacerPlacer as explained [here](https://github.com/Fabian1567/SpacerPlacer_IntegronEvo) activate the SpacerPlacer conda environment and run:
     ```bash
    python <path to spacerplacer.py> input_path/workfolder/sp_fasta/ <output_path> --cluster_json input_path/workfolder/sp_json/ [--tree_path input_path/workfolder/trees/]
    ```
