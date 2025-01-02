@@ -42,9 +42,10 @@ Activate the panX conda environment and run panX on all subfolders in `input_pat
 
 6. Install SpacerPlacer as explained [here](https://github.com/Fabian1567/SpacerPlacer_IntegronEvo) activate the SpacerPlacer conda environment and run:
     ```bash
-   python <path to spacerplacer.py> input_path/workfolder/sp_fasta/ <output_path> --cluster_json input_path/workfolder/sp_json/ [--tree_path input_path/workfolder/trees/]
+   python <path to spacerplacer.py> input_path/workfolder/sp_fasta/ <output_path> --cluster_json input_path/workfolder/sp_json/ [--tree_path input_path/workfolder/trees/] [-cs exp]
    ```
    Only use the `--tree_path` flag if you performed step 5!
+   Using the `-cs exp` flag will activate exponential scaling for cluster scores used by MAFFT (standard is linear). Activating this option may improve results in some cases.
 
 
 ## Input
