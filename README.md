@@ -58,7 +58,7 @@ Input has to be structured as follows:
         └── group_2.txt
 
 ```
-Where data is the folder referred to as <input_path> above and each `.txt` file contains a list of RefSeq accesions like:
+Where data is the folder referred to as `<input_path>` above and each `.txt` file contains a list of RefSeq accesions like:
 ```
 GCF_013487985.1
 GCF_016598815.1
